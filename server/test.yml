@@ -11,13 +11,13 @@ config:
       rampTo: 10
       maxVusers: 10
       name: "10 users"
-    - pause: 20
+    - pause: 30
     - duration: 60
       arrivalRate: 10
       rampTo: 100
       maxVusers: 100
       name: "100 users"
-    - pause: 20
+    - pause: 60
     - duration: 180
       arrivalRate: 1000
       rampTo: 1000

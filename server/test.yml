@@ -1,5 +1,5 @@
 config:
-  target: 'http://localhost:8009'
+  target: 'http://54.183.54.237:8009'
   processor: "./stressgenerator.js"
   phases:
     - duration: 10

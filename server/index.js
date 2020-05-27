@@ -5,7 +5,7 @@ const {createProxyMiddleware} = require('http-proxy-middleware');
 const port = 8009;
 const path = require('path');
 
-const apiProxy = createProxyMiddleware({target: 'http://localhost:3001'});
+const apiProxy = createProxyMiddleware({target: 'http://54.215.115.198:3001'});
 // const reviewProxy = createProxyMiddleware({target: 'http://18.212.184.37:3004'});
 // const relatedProxy = createProxyMiddleware({target: 'http://54.89.234.183:3003'});
 // const itemsProxy = createProxyMiddleware({target: 'http://34.201.53.74:3002'});

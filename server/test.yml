@@ -18,8 +18,8 @@ config:
       maxVusers: 100
       name: "100 users"
     - pause: 20
-    - duration: 60
-      arrivalRate: 100
+    - duration: 180
+      arrivalRate: 1000
       rampTo: 1000
       maxVusers: 1000
       name: "Sustained max load at 1K"

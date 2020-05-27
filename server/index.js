@@ -12,6 +12,7 @@ const apiProxy = createProxyMiddleware({target: 'http://localhost:3001'});
 app.use(express.static('public'))
 
 app.use('/api/items/:id',apiProxy);
+app.use('/api/items', apiProxy);
 // app.use('/api/allreviews/',reviewProxy);
 // app.use('/api/related_products/:id',relatedProxy);
 // app.use('/items/:id',itemsProxy);

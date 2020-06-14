@@ -3,15 +3,19 @@ Proxy for the 4 microservices linked to RetailHub, an e-commerce site for over 1
 
 ### Media
 * Image carousel with zoom-in capability for each product
+- https://github.com/RetailHub/single-item-service
 
 ### Item Details
 * Interactable modules with additional information for each product
+- https://github.com/RetailHub/item-details
 
 ### Sponsored Related Products
 * Recommended additional products you may enjoy
+- https://github.com/RetailHub/service-related-products
 
 ### Reviews
 * User interactable reviews component from customers ranging from happy, frustrated, and everywhere in-between.
+- https://github.com/RetailHub/reviews
 
 ## Getting started
 ### Installing Dependencies
